@@ -12,13 +12,6 @@ Unlike Triaxis Which It Have Neofetch Trinity Will be Have Fastfetch
 
 Trinity Doesnt Need Iso Just Like Triaxis You can Configure and build it yourself since its also diy distro but also plug and play distro
 
-
-
-
-
-
-
-
 Previews
 Grub Preview
 <img width="1018" height="765" alt="Screenshot from 2026-01-18 17-08-01" src="https://github.com/user-attachments/assets/5cd2aba8-b57f-4d79-8cb5-a7b6afc4f43f" />
