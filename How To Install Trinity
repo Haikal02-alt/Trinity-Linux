@@ -39,6 +39,7 @@ If You cant Find It Keep using Fedora logo
    For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 27 Install Gnome Software Using sudo dnf install gnome-software -y
 28 Install Libreoffice (If You Need It) use sudo dnf install libreoffice -y
+29 Install Gnome Extension (If You Need It) sudo dnf install gnome-extensions-app -y
 
-29 Have Fun And Start Using Trinity Linux Which Is Have 28 Steps And You can Say I USE TRINITY BTW
+30 Have Fun And Start Using Trinity Linux Which Is Have 29 Steps And You can Say I USE TRINITY BTW
                                      
