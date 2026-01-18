@@ -37,6 +37,8 @@ If You cant Find It Keep using Fedora logo
    sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)" To GRUB_DISTRIBUTOR="Trinity"
    Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
    For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+27 Install Gnome Software Using sudo dnf install gnome-software -y
+28 Install Libreoffice (If You Need It) use sudo dnf install libreoffice -y
 
-27 Have Fun And Start Using Trinity Linux Which Is Have 26 Steps And You can Say I USE TRINITY BTW
+29 Have Fun And Start Using Trinity Linux Which Is Have 28 Steps And You can Say I USE TRINITY BTW
                                      
