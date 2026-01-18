@@ -1,0 +1,42 @@
+1 Download Fedora Server Iso
+2 Flash It Using Fedora Media Writer
+3 Setup Fedora Server
+4 Update The System using sudo dnf update -y if its too long dont update it
+5 Install Gnome Using sudo dnf install gnome-session
+6 Enable GDM3 sudo dnf install gdm -y
+sudo systemctl enable gdm --force
+7 Switch to Graphical Target sudo systemctl set-default graphical.target
+8 sudo reboot
+9 If Theres No Terminal Go to tty3 using ctrl alt f3 then login then use sudo dnf install gnome-terminal -y
+  After You Install gnome terminal then exit tty3 using command exit then go back to tty2 using ctrl alt f2
+10 Install fastfetch using sudo dnf install fastfetch
+11 Install Nano If Its Not Installed sudo dnf install nano
+12 Enable Submenu Using Change GRUB_DISABLE_SUBMENU=true to GRUB_DISABLE_SUBMENU=false
+13 Enable Recovery Change GRUB_DISABLE_RECOVERY="true" to GRUB_DISABLE_RECOVERY="false"
+14 Disable BLSCFG Using GRUB_ENABLE_BLSCFG=true to GRUB_ENABLE_BLSCFG=false
+15 Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  For UEFI Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+16 Enable Custom Font by Opening 3 bars button then Preferences Then Profiles Unnamed Or Your name Then Enable Custom Font
+17 Install Gnome Apps (If Needed)
+-For Core GNOME Applications Use sudo dnf install nautilus gedit gnome-system-monitor gnome-control-center -y
+-For Useful GNOME Utilities sudo dnf install gnome-tweaks gnome-calculator gnome-disk-utility gnome-screenshot -y
+-For Extra GNOME Apps sudo dnf install gnome-weather gnome-maps gnome-clocks gnome-contacts gnome-photos -y
+18 Install Firefox Using sudo dnf install firefox -y
+19 Change Fastfetch Logo If you don’t already have a config file fastfetch --gen-config fastfetch --gen-config This creates ~/.config/fastfetch/config.jsonc. Then Open It using nano ~/.config/fastfetch/config.jsonc then change ascii to TRI Logo On figlet
+If You cant Find It Keep using Fedora logo
+20 Download Trinity Logo From Readme https://github.com/Haikal02-alt/Trinity-Linux Then Save The Trinity Logo As Then Rename 537255355-6369081e-a3f4-4ecf-ab9d-4eca552a8936.png To trinity-logo.png
+21 Install Background Using sudo dnf install gnome-backgrounds -y
+22 For other Photo apps use sudo dnf install eog -y
+23 Move Trinity Logo Using sudo mv /home/yourname/Pictures/trinity-logo.png /usr/share/pixmaps
+24 Change OS Release sudo nano /etc/os-release
+   Then Change Name Fedora Linux To Trinity Linux then Change 43 (Server Edition) To Workstation Then Change Pretty name fedora to Trinity
+   Then Change All Name on /etc/os-release from fedora to trinity id and etc Change Home URL fedoraproject.org to https://github.com/Haikal02-alt/Trinity-Linux
+25 Change all any fedora logo such as fedora-gdm-logo.png and fedora-logo.png using sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-gdm-logo.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.png
+   then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.ico then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_med.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_small.png
+26 Change GRUB so it shows Trinity instead of Fedora, you’ll need to edit the GRUB configuration
+   sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)" To GRUB_DISTRIBUTOR="Trinity"
+   Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+   For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+
+27 Have Fun And Start Using Trinity Linux Which Is Have 26 Steps And You can Say I USE TRINITY BTW
+                                     
