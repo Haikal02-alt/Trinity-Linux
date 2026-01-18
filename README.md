@@ -6,3 +6,5 @@ Unlike Triaxis Which Is Ubuntu LTS Based Trinity Is A Fedora Based Distro
 Unlike Triaxis Which Is Rolling Release Trinity Is A Stable Release
 Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Install
 Trinity Only Have Default Desktop Environment Kde Plasma
+
+Unlike Triaxis Which It Have Kde Plasma 5.27.12 Trinity Will Have KDE Plasma 6
