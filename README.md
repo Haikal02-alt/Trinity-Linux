@@ -8,3 +8,6 @@ Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Ins
 Trinity Only Have Default Desktop Environment Kde Plasma
 
 Unlike Triaxis Which It Have Kde Plasma 5.27.12 Trinity Will Have KDE Plasma 6
+Unlike Triaxis Which It Have Neofetch Trinity Will be Have Fastfetch
+
+Trinity Doesnt Need Iso Just Like Triaxis You can Configure and build it yourself since its also diy distro but also plug and play distro
