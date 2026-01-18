@@ -5,4 +5,4 @@ Trinity Is a Second Linux Distro That Created By Haikal Corporation
 Unlike Triaxis Which Is Ubuntu LTS Based Trinity Is A Fedora Based Distro
 Unlike Triaxis Which Is Rolling Release Trinity Is A Stable Release
 Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Install
-Trinity Only Have Default Desktop Environment Kde And Gnome
+Trinity Only Have Default Desktop Environment Kde Plasma
