@@ -22,24 +22,22 @@ sudo systemctl enable gdm --force
 -For Useful GNOME Utilities sudo dnf install gnome-tweaks gnome-calculator gnome-disk-utility gnome-screenshot -y
 -For Extra GNOME Apps sudo dnf install gnome-weather gnome-maps gnome-clocks gnome-contacts gnome-photos -y
 18 Install Firefox Using sudo dnf install firefox -y
-19 Change Fastfetch Logo If you don’t already have a config file fastfetch --gen-config fastfetch --gen-config This creates ~/.config/fastfetch/config.jsonc. Then Open It using nano ~/.config/fastfetch/config.jsonc then change ascii to TRI Logo On figlet
-If You cant Find It Keep using Fedora logo
-20 Download Trinity Logo From Readme https://github.com/Haikal02-alt/Trinity-Linux Then Save The Trinity Logo As Then Rename 537255355-6369081e-a3f4-4ecf-ab9d-4eca552a8936.png To trinity-logo.png
-21 Install Background Using sudo dnf install gnome-backgrounds -y
-22 For other Photo apps use sudo dnf install eog -y
-23 Move Trinity Logo Using sudo mv /home/yourname/Pictures/trinity-logo.png /usr/share/pixmaps
-24 Change OS Release sudo nano /etc/os-release
+19 Download Trinity Logo From Readme https://github.com/Haikal02-alt/Trinity-Linux Then Save The Trinity Logo As Then Rename 537255355-6369081e-a3f4-4ecf-ab9d-4eca552a8936.png To trinity-logo.png
+20 Install Background Using sudo dnf install gnome-backgrounds -y
+21 For other Photo apps use sudo dnf install eog -y
+22 Move Trinity Logo Using sudo mv /home/yourname/Pictures/trinity-logo.png /usr/share/pixmaps
+23 Change OS Release sudo nano /etc/os-release
    Then Change Name Fedora Linux To Trinity Linux then Change 43 (Server Edition) To Workstation Then Change Pretty name fedora to Trinity
    Then Change All Name on /etc/os-release from fedora to trinity id and etc Change Home URL fedoraproject.org to https://github.com/Haikal02-alt/Trinity-Linux
-25 Change all any fedora logo such as fedora-gdm-logo.png and fedora-logo.png using sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-gdm-logo.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.png
+24 Change all any fedora logo such as fedora-gdm-logo.png and fedora-logo.png using sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-gdm-logo.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.png
    then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.ico then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_med.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_small.png
-26 Change GRUB so it shows Trinity instead of Fedora, you’ll need to edit the GRUB configuration
+25 Change GRUB so it shows Trinity instead of Fedora, you’ll need to edit the GRUB configuration
    sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)" To GRUB_DISTRIBUTOR="Trinity"
    Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
    For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-27 Install Gnome Software Using sudo dnf install gnome-software -y
-28 Install Libreoffice (If You Need It) use sudo dnf install libreoffice -y
-29 Install Gnome Extension (If You Need It) sudo dnf install gnome-extensions-app -y
+26 Install Gnome Software Using sudo dnf install gnome-software -y
+27 Install Libreoffice (If You Need It) use sudo dnf install libreoffice -y
+28 Install Gnome Extension (If You Need It) sudo dnf install gnome-extensions-app -y
 
-30 Have Fun And Start Using Trinity Linux Which Is Have 29 Steps And You can Say I USE TRINITY BTW
+29 Have Fun And Start Using Trinity Linux Which Is Have 28 Steps And You can Say I USE TRINITY BTW
                                      
