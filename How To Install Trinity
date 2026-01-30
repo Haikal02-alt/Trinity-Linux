@@ -38,6 +38,8 @@ sudo systemctl enable gdm --force
 26 Install Gnome Software Using sudo dnf install gnome-software -y
 27 Install Libreoffice (If You Need It) use sudo dnf install libreoffice -y
 28 Install Gnome Extension (If You Need It) sudo dnf install gnome-extensions-app -y
+29 Change GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora/root rhgb quiet" to GRUB_CMDLINE_LINUX="quiet" Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+   For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 
-29 Have Fun And Start Using Trinity Linux Which Is Have 28 Steps And You can Say I USE TRINITY BTW
+30 Have Fun And Start Using Trinity Linux Which Is Have 29 Steps And You can Say I USE TRINITY BTW
                                      
