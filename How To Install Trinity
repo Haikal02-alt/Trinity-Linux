@@ -3,7 +3,7 @@
 3 Setup Fedora Server
 4 Update The System using sudo dnf update -y if its too long dont update it
 5 Install Gnome Using sudo dnf install gnome-session
-6 Enable GDM3 sudo dnf install gdm -y
+6 Install Dependencies And Enable GDM3 sudo dnf install gdm -y
 sudo systemctl enable gdm --force
 7 Switch to Graphical Target sudo systemctl set-default graphical.target
 8 sudo reboot
