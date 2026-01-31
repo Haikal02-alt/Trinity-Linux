@@ -7,7 +7,7 @@ Unlike Triaxis Which Is Rolling Release Trinity Is A Stable Release
 Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Install
 Trinity Only Have Default Desktop Environment Gnome
 
-Unlike Triaxis Which It Have Kde Plasma 5.27.12 And Gnome 46 Trinity Will Have Gnome 49 But No Kde Plasma
+Unlike Triaxis Which It Have Kde Plasma 5.27.12 And Gnome 46 Trinity Will Have Gnome 49 And Base Only
 Unlike Triaxis Which It Have Neofetch Trinity Will be Have Fastfetch
 
 Trinity Doesnt Need Iso Just Like Triaxis You can Configure and build it yourself since its also diy distro but also plug and play distro
