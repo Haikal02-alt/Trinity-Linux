@@ -6,7 +6,7 @@
 6 Install Dependencies And Enable GDM3 sudo dnf install gdm -y
 sudo systemctl enable gdm --force
 7 Switch to Graphical Target sudo systemctl set-default graphical.target
-8 sudo reboot
+8 sudo systemctl start gdm
 9 If Theres No Terminal Go to tty3 using ctrl alt f3 then login then use sudo dnf install gnome-terminal -y
   After You Install gnome terminal then exit tty3 using command exit then go back to tty2 using ctrl alt f2
 10 Install fastfetch using sudo dnf install fastfetch
