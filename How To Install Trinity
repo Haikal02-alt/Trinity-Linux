@@ -40,7 +40,6 @@ sudo systemctl enable gdm --force
 28 Install Gnome Extension (If You Need It) sudo dnf install gnome-extensions-app -y
 29 Change GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora/root rhgb quiet" to GRUB_CMDLINE_LINUX="quiet" Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
    For Uefi Systems sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-30 Go to sudo nano /etc/os-release then change ID=fedora to ID=trinity then change LOGO=fedora-logo-??? (sometimes seen as fedora-logo-icon, fedora-logo-sprite, etc. depending on packaging) to LOGO=trinity
 
-31 Have Fun And Start Using Trinity Linux Which Is Have 30 Steps And You can Say I USE TRINITY BTW
+30 Have Fun And Start Using Trinity Linux Which Is Have 30 Steps And You can Say I USE TRINITY BTW
                                      
