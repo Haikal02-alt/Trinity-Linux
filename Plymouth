@@ -1,0 +1,26 @@
+What Is Plymouth
+Plymouth is a graphical boot system for Linux that displays animated logos or progress bars during system startup and shutdown, masking technical boot logs
+
+If You Havent Install It You Can Install Using
+sudo dnf install plymouth
+after you install
+sudo nano /etc/default/grub
+Add quiet rhgb inside the quotes.
+GRUB_CMDLINE_LINUX="quiet rhgb"
+Regenerate Grub
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+Install A Theme
+sudo dnf install plymouth-theme-spinner
+sudo dracut -f
+(Trinity sets the default theme to bgrt. This can be confirmed by running sudo plymouth-set-default-theme --list then sudo plymouth-set-default-theme theme-name sudo dracut -f)
+You can install other plymouth theme
+
+sudo dnf install plymouth-theme-charge
+
+sudo dnf install plymouth-theme-fade-in
+
+sudo dnf install plymouth-theme-script
+
+sudo dnf install plymouth-theme-solar
+
+sudo dnf install plymouth-theme-spinfinity
