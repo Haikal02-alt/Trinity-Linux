@@ -11,7 +11,7 @@ sudo systemctl enable gdm --force
   After You Install gnome terminal then exit tty3 using command exit then go back to tty2 using ctrl alt f2
 10 Install fastfetch using sudo dnf install fastfetch
 11 Install Nano If Its Not Installed sudo dnf install nano
-12 Enable Submenu Using Change GRUB_DISABLE_SUBMENU=true to GRUB_DISABLE_SUBMENU=false
+12 Run sudo nano /etc/default/grub Then Enable Submenu Using Change GRUB_DISABLE_SUBMENU=true to GRUB_DISABLE_SUBMENU=false
 13 Enable Recovery Change GRUB_DISABLE_RECOVERY="true" to GRUB_DISABLE_RECOVERY="false"
 14 Disable BLSCFG Using GRUB_ENABLE_BLSCFG=true to GRUB_ENABLE_BLSCFG=false
 15 Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
