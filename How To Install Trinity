@@ -28,7 +28,8 @@ sudo systemctl enable gdm --force
 22 Move Trinity Logo Using sudo mv /home/yourname/Pictures/trinity-logo.png /usr/share/pixmaps
 23 Change OS Release sudo nano /etc/os-release
    Then Change Name Fedora Linux To Trinity Linux then Change 43 (Server Edition) To 43 (Workstation Edition) Then Change PRETTY_NAME=Fedora Linux 43 (Server Edition) to Trinity Linux 43 (Workstation Edition)
-   Then Change All Name on /etc/os-release from fedora to trinity ID=fedora to ID=trinity Keep VERSION_ID=43,etc Change Home URL fedoraproject.org to https://github.com/Haikal02-alt/Trinity-Linux
+   Then Change All Name on /etc/os-release from fedora to trinity ID=fedora to ID=trinity Keep VERSION_ID=43,etc Change Home URL fedoraproject.org to https://github.com/Haikal02-alt/Trinity-Linux Then REDHAT_BUGZILLA_PRODUCT="Trinity" Then REDHAT_BUGZILLA_PRODUCT_VERSION="43"
+   REDHAT_SUPPORT_PRODUCT="Trinity" Then REDHAT_SUPPORT_PRODUCT_VERSION="43" Then VARIANT="Workstation Edition" VARIANT_ID=workstation
 24 Change all any fedora logo such as fedora-gdm-logo.png and fedora-logo.png using sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-gdm-logo.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.png
    then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.ico then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_med.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_small.png
    then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/bootloader/bootlogo_128.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/bootloader/bootlogo_256.png
