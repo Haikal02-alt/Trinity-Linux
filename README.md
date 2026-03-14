@@ -8,6 +8,12 @@ Unlike Triaxis Which Is Rolling Release Trinity Is A Stable Release
 Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Install
 Trinity Only Have Default Desktop Environment Gnome And Base System
 
+Supports
+Intel and AMD x86_64 systems
+Power ppc64le systems
+ARM® aarch64 systems
+And IBM s390x zSystems
+
 Trinity Doesnt Need Iso Just Like Triaxis You can Configure and build it yourself since its also diy distro but also plug and play distro
 
 Previews
