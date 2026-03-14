@@ -31,6 +31,7 @@ sudo systemctl enable gdm --force
    Then Change All Name on /etc/os-release from fedora to trinity ID=fedora to ID=trinity Keep VERSION_ID=43,etc Change Home URL fedoraproject.org to https://github.com/Haikal02-alt/Trinity-Linux
 24 Change all any fedora logo such as fedora-gdm-logo.png and fedora-logo.png using sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-gdm-logo.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.png
    then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora-logo.ico then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_med.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/fedora_logo_small.png
+   then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/bootloader/bootlogo_128.png then sudo cp /usr/share/pixmaps/trinity-logo.png /usr/share/pixmaps/bootloader/bootlogo_256.png
 25 Change GRUB so it shows Trinity instead of Fedora, you’ll need to edit the GRUB configuration
    sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)" To GRUB_DISTRIBUTOR="Trinity Linux"
    Then Update Grub Using sudo grub2-mkconfig -o /boot/grub2/grub.cfg
