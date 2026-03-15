@@ -21,7 +21,7 @@ sudo systemctl enable gdm --force
 -For Core GNOME Applications Use sudo dnf install nautilus gedit gnome-system-monitor gnome-control-center -y
 -For Useful GNOME Utilities sudo dnf install gnome-tweaks gnome-calculator gnome-disk-utility gnome-screenshot -y
 -For Extra GNOME Apps sudo dnf install gnome-weather gnome-maps gnome-clocks gnome-contacts gnome-photos -y
--For Extra sudo dnf install gnome-calendar -y; sudo dnf install gnome-chess -y; sudo dnf install gnome-sudoku -y; sudo dnf install gnome-tetravex -y; sudo dnf install gnome-mines -y; sudo dnf install gnome-robots -y; sudo dnf install gnome-nibbles -y
+-For More sudo dnf install gnome-calendar -y; sudo dnf install gnome-chess -y; sudo dnf install gnome-sudoku -y; sudo dnf install gnome-tetravex -y; sudo dnf install gnome-mines -y; sudo dnf install gnome-robots -y; sudo dnf install gnome-nibbles -y
 18 Install Firefox Using sudo dnf install firefox -y
 19 Download Trinity Logo From Readme https://github.com/Haikal02-alt/Trinity-Linux Then Save The Trinity Logo As Then Rename 537255355-6369081e-a3f4-4ecf-ab9d-4eca552a8936.png To trinity-logo.png
 20 Install Background Using sudo dnf install gnome-backgrounds -y
