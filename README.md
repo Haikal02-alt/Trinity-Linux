@@ -3,7 +3,7 @@
 # Ahoy The Sword Realm Linux Distribution
 
 Trinity Is a Workstation Linux Distro Based On Fedora
-Unlike Triaxis Which Is Ubuntu LTS Based Trinity Is A Fedora Based Distro
+Unlike Triaxis Which Is Arch Based Trinity Is A Fedora Based Distro
 Unlike Triaxis Which Is Rolling Release Trinity Is A Stable Release
 Unlike Triaxis Which It Doesnt Have Graphical Install Trinity Have Graphical Install
 Trinity Have Default Desktop Environment GNOME (Default) KDE Plasma And Base System
