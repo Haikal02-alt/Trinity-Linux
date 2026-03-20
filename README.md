@@ -19,7 +19,12 @@ Trinity Doesnt Need Iso Just Like Triaxis You can Configure and build it yoursel
 Previews
 
 Grub Preview
+
+Old
 <img width="1018" height="765" alt="Screenshot from 2026-01-18 17-08-01" src="https://github.com/user-attachments/assets/5cd2aba8-b57f-4d79-8cb5-a7b6afc4f43f" />
+
+New
+<img width="1019" height="761" alt="Screenshot From 2026-03-20 15-36-50" src="https://github.com/user-attachments/assets/b2c00433-26fc-423e-8d9e-cc2e825447de" />
 
 Login Screen Preview
 
