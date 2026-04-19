@@ -31,7 +31,7 @@ Login Screen Preview
 GDM3
 <img width="1276" height="796" alt="Screenshot from 2026-01-18 17-12-06" src="https://github.com/user-attachments/assets/d7ac1bab-cbd2-41ac-9fc0-846259f339bc" />
 
-SDDM
+Plasma Login Manager
 <img width="1278" height="797" alt="Screenshot From 2026-03-15 13-34-54" src="https://github.com/user-attachments/assets/eceb6475-86e2-44fb-a473-1fad863509c0" />
 
 Desktop Preview
